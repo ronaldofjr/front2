@@ -9,9 +9,45 @@
 
 .container {
     align-items: center;
+    background: linear-gradient(292deg, rgba(255, 255, 255, 0.329) 0%, rgba(255,255,255,0.4906337535014006) 100%),
+    url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     min-height: 100vh;
+
+    .header{
+        background: #03022bc2;
+        border-radius: 10px;
+        color: #FFF;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        width: 80%;
+
+        p{
+            letter-spacing: 2px;
+            line-height: 1.5;
+            margin: 10px auto;
+            width: 50%;
+        }
+
+        button{
+            background: #FFF;
+            border: none;
+            border-radius: 10px;
+            color: #000;
+            font-weight: bold;
+            padding: 10px 15px;
+
+            &:hover{
+                background: #ccc;
+                cursor: pointer;
+            }
+        }
+    }
 
     @media(max-width: 990px){
         flex-direction: column;
