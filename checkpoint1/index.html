@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CheckPoint I</title>
+
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/fakeLoader.min.css" />
+	</head>
+	<body>
+		<section class="main-section">
+			<div class="box">
+				<form id="formulario" action="#dummy" class="form">
+					<h2>CheckPoint I</h2>
+
+					<div class="input-box">
+						<input type="text" id="titulo" data-title placeholder="Título Imagem" />
+						<img src="./images/pen-tool.png" alt="Icone Caneta" width="30px" required />
+					</div>
+					<div class="input-box">
+						<input type="text" id="descricao" data-text placeholder="Descrição Imagem" />
+						<img src="./images/pen-tool.png" alt="Icone Caneta" width="30px" required />
+					</div>
+					<div class="input-box">
+						<input type="text" id="url" data-url placeholder="URL Imagem" />
+						<img src="./images/worldwide.png" alt="Icone Internet" width="30px" required />
+					</div>
+					<div id="erros"></div>
+					<div class="input-box">
+						<input type="submit" data-submit value="Enviar" />
+						<input type="reset" id="cancelar" value="Cancelar" />
+						<input type="button" id="about" value="Participantes" />
+					</div>
+				</form>
+			</div>
+
+			<section id="cards" class="cards"></section>
+		</section>
+
+		<div class="fakeLoader"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./js/fakeLoader.min.js"></script>
+		<script src="./js/vanilla.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
