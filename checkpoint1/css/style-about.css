@@ -26,7 +26,7 @@
 }
 
 .container .header {
-  background: #03022bc2;
+  background: #000000b9;
   border-radius: 10px;
   color: #FFF;
   margin: 0 auto;
@@ -91,7 +91,7 @@
 }
 
 .container .card .circle::before {
-  background: #d83133;
+  background: #FFF;
   -webkit-clip-path: circle(70px at center);
           clip-path: circle(70px at center);
   content: "";
@@ -105,7 +105,7 @@
 }
 
 .container .card:hover .circle:before {
-  background: #0065c3;
+  background: #000;
   -webkit-clip-path: circle(350px at center);
           clip-path: circle(350px at center);
 }
@@ -164,13 +164,13 @@
 }
 
 .container .card .content a.linkedin {
-  background: #FFF;
-  color: #3f3fc2;
+  background: #3f3fc2;
+  color: #FFF;
 }
 
 .container .card .content a.github {
-  background: #000;
-  color: #FFF;
+  background: #FFF;
+  color: #000;
 }
 
 .container .card:hover .content {

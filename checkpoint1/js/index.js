@@ -83,7 +83,7 @@ function insertCard(banda, texto, imagem) {
 $(document).ready(function () {
 	$.fakeLoader({
 		timeToHide: 1800,
-		bgColor: '#7f0000',
+		bgColor: '#000',
 		spinner: 'spinner4',
 	});
 });

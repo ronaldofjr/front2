@@ -19,7 +19,7 @@
     min-height: 100vh;
 
     .header{
-        background: #03022bc2;
+        background: #000000b9;
         border-radius: 10px;
         color: #FFF;
         margin: 0 auto;
@@ -72,7 +72,7 @@
             width: 100%;
 
             &::before {
-                background: #d83133;
+                background: #FFF;
                 clip-path: circle(70px at center);
                 content: "";
                 height: 100%;
@@ -85,7 +85,7 @@
         }
 
         &:hover .circle:before {
-            background: #0065c3;
+            background: #000;
             clip-path: circle(350px at center);
         }
     
@@ -137,13 +137,13 @@
                 text-decoration: none;
                 
                 &.linkedin{
-                    background: #FFF;
-                    color: #3f3fc2;          
+                    background: #3f3fc2;
+                    color: #FFF;          
                 }
     
                 &.github{
-                    background: #000;
-                    color: #FFF;
+                    background: #FFF;
+                    color: #000;
                 }
             }
             
